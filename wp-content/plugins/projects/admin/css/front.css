@@ -1,0 +1,130 @@
+.box1, .box2, .box3 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+
+.box1::before {
+    color:white;
+    font-family: dashicons;
+    content: "\f102";
+    position: absolute;
+    font-size: 2.5rem;
+    top: -1.8rem;
+    left: 47%;
+    
+}
+
+.box2::before {
+    font-family: dashicons;
+    content: "\f481";
+    position: absolute;
+    font-size: 2.5rem;
+    top: -1.8rem;
+    left: 47%;
+    
+}
+
+.box3::before {
+    font-family: dashicons;
+    content: "\f103";
+    position: absolute;
+    font-size: 2.5rem;
+    top: -1.8rem;
+    left: 47%;
+}
+
+
+
+.icon-up::before {
+    top: -2.3rem !important;
+}
+
+.field {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    
+    flex: 1;
+}
+
+.field span:nth-child(2) {
+    font-weight: 800;
+    margin-top: .3rem;
+}
+
+.fieldx {
+    flex:1;
+    height: 3rem;
+}
+
+.fieldx span:nth-child(1), .col1, .col2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    color: grey;
+}
+
+ 
+.fieldx {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.field8 {
+    text-align:center;
+}
+
+.field6 span:nth-child(2)::after {
+    content: " Kg";
+    display: inline-block;
+}
+.field3 span:nth-child(2)::after {
+    content: " €";
+    display: inline-block;
+}
+
+.data-staff {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items:center;
+    margin-top: 3rem;
+}
+
+.fila {
+    width: 100%;
+    
+    display: flex;
+    justify-content:center;
+}
+
+.lbl {
+    flex: 1;
+    
+}
+
+.staff-row {
+    display: flex;
+    width: 100%;
+}
+
+.box4 {
+    padding: 2rem;
+    position: relative;
+}
+
+.data-staff h4 {
+    margin: 1rem 0;
+    position: absolute;
+    top: -2rem;
+    left: 45%;
+}

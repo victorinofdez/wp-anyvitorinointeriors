@@ -1,0 +1,23 @@
+.flex-metabox{
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+}
+.flex-item{
+    height:100%;
+    flex:1;
+    padding: 2rem;
+}
+.item1{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items:center;
+    gap: 1rem
+}
+.item1 *{
+    flex: 1;
+    width:100%;
+    
+    display:flex;
+}
